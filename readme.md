@@ -15,6 +15,7 @@ A few things that are very important to understand:
 	* Helps solve vendor specific issues
 * [Why do we have vendor prefixes?](http://stackoverflow.com/questions/8131846/why-do-browsers-create-vendor-prefixes-for-css-properties#answer-813187)
 * What is [W3C](http://www.w3.org/wiki/The_history_of_the_Web) and why do we care?
+	* Hey, so what is the [Internet](http://en.wikipedia.org/wiki/Internet_Protocol) anyway?
 * Move on once we start to go into tangents on how the internet works.
 
 ##Transitions
