@@ -1,7 +1,7 @@
 #Advanced CSS
 
 ##Objectives
-* **Tonight:** make a [wilbur walk](http://imgur.com/mwOvBSA)!
+* **Tonight:** make [wilbur walk](http://imgur.com/mwOvBSA)!
 * **First:** create simple **CSS Tranitions**
 * **Next:** create more advanced **CSS Animations**
 * **Also:** note the value of a **Sprites**
