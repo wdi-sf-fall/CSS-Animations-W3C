@@ -1,0 +1,115 @@
+/*Container*/
+#animation-container {
+  width: 800px;
+  height: 600px;
+  background: url('img/background.png') top left no-repeat;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* |Fences| */
+#fence-far {
+  position: absolute;
+  -webkit-animation: fence-far 2s linear infinite;
+  top: 20px;
+}
+#fence-near {
+  position: absolute;
+  top: 180px;
+  -webkit-animation: fence-near 2s linear infinite;
+}
+/* ***** Animations ***** */
+/* Far fence passing by */
+@-webkit-keyframes fence-far {
+  from {left: 0;}
+  to {left: -105px;}
+}
+/* Near fence passing by */
+@-webkit-keyframes fence-near {
+  from {left: 0;}
+  to {left: -278px;}
+}
+
+/* |Pig| */
+#pig-body {
+  position: absolute;
+  bottom: 80px;
+  left: 150px;
+  -webkit-animation: bounce .5s linear alternate infinite;
+}
+
+/* Legs */
+#pig-leg-left-front {
+  position: absolute;
+  bottom: 30px;
+  left: 480px;
+  -webkit-animation: walking 1s linear alternate infinite;  
+}
+
+#pig-leg-right-back {
+  position: absolute;
+  bottom: 20px;
+  left: 220px;
+  -webkit-animation: walking 1s linear alternate infinite;
+}
+
+#pig-leg-right-front {
+  position: absolute;
+  bottom: 20px;
+  left: 480px;
+  -webkit-animation: walkingAlt 1s linear alternate infinite;
+}
+#pig-leg-left-back {
+  position: absolute;
+  bottom: 30px;
+  left: 220px;
+  -webkit-animation: walkingAlt 1s linear alternate infinite;
+}
+
+/* Ear */
+#pig-ear {
+  position: absolute;
+  bottom: 200px;
+  left: 445px;
+  -webkit-animation: bounceAndWag .5s linear alternate infinite;
+}
+/* Tail */
+#pig-tail {
+  position: absolute;
+  bottom: 200px;
+  left: 140px;
+  -webkit-animation: bounceAndWag .5s linear alternate infinite;
+}
+
+/* ***** Animations ***** */
+/* Walking */
+@-webkit-keyframes walking {
+  from { transform: rotate(-15deg); }
+  to { transform: rotate(15deg); }
+}
+/* Walking for alternating set of legs */
+@-webkit-keyframes walkingAlt {
+  from { transform: rotate(15deg); }
+  to { transform: rotate(-15deg); }
+}
+/* Wagging of the ear & tail */
+@-webkit-keyframes wag {
+  from { transform: rotate(5deg); }
+  to { transform: rotate(-5deg); }
+}
+/* Bouncing */
+@-webkit-keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(10px); }
+}
+@-webkit-keyframes bounceAndWag {
+  from {
+    transform: translateY(0) rotate(-5deg);;
+  }
+  to {
+    transform: translateY(10px) rotate(5deg);;
+  }
+}
+
