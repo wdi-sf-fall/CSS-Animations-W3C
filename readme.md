@@ -45,7 +45,3 @@ A few things that are very important to understand:
 * [Flex Box](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Write better CSS](http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/)
 * [Using SVGs](http://css-tricks.com/using-svg/)
-
-##Homework
-* [finished product](http://imgur.com/mwOvBSA)
-* Help week 4 cohort with their homework
